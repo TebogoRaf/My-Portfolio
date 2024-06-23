@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Cstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  
+    <header>
+        <div class="logo">Tebogo Rafapa</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>Hi all, I'm Tebogo <span class="wave">👋</span></h1>
+        <p>A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / C# / Java and some other cool libraries and frameworks</p>
+        <img src="tebogorafapa.jpg" alt="Your Image">
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Web Development</li>
+            <li>Java</li>
+            <li>C#</li>
+            
+        </ul>
+    </section>
+
+ 
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="project">
+                    <h3>Calculations using JS</h3>
+                    <p>This is a website to showcase how to use Fibonacci series, factorial, and create image.</p>
+                    <img src="fabonnaci.png" alt="Project 1 Image" height="100px">
+                </div>
+                <div class="project">
+                    <h3>Lemonade</h3>
+                    <p>This is an Android App where you follow steps to make a lemonade from a lemon.</p>
+                    <img src="lemonade.png" alt="Project 2 Image" height="100px">
+                </div>
+                <div class="project">
+                    <h3>Car Dealership Web</h3>
+                    <p>This is a website which advertises the opening of a new dealership and has a countdown using JS.</p>
+                    <img src="dealership.png" alt="Project 3 Image" height="100px">
+                </div>
+                <div class="project">
+                    <h3>Flower Shop Advertises</h3>
+                    <p>This is a website which advertises a flower shop in my community.</p>
+                    <img src="flower.png" alt="Project 3 Image" height="100px">
+                </div>
+                <div class="project">
+                    <h3>Web Calculator</h3>
+                    <p>This is a website that displays a basic calculator.That has all functionality.</p>
+                    <img src="calc.png" alt="Project 3 Image" height="100px">
+                </div>
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+    
+
+    
+    <section id="resume">
+        <h2>Resume</h2>
+        <h4></h4>
+        <a href="CV Updated.pdf" download><i class="fas fa-envelope"></i> Download My Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <a href="mailto:tebogosuzan90@gmail.com"><i class="fas fa-envelope"></i> tebogosuzan90@gmail.com</a><br><br>
+            <a href="tel:+27718878749"><i class="fas fa-phone"></i> +27 71 887 8749</a>
+        </div> <br>
+        <div class="social-links">
+            <a href="https://github.com/TebogoRaf"><i class="fab fa-github"></i> GitHub</a><br><br>
+            <a href="www.linkedin.com/in/tebogo-rafapa-3013b5244"><i class="fab fa-linkedin"></i>LinkedIn</a>
+           
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rafapa Tebogo. All rights reserved.</p>
+    </footer>
+
+    <script src="Jscript.js"></script>
+</body>
+</html>
